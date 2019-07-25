@@ -13,6 +13,7 @@ class Sort{
         std::vector<int> * SelectionSort(std::vector<int> unsorted);
         std::vector<int> * QuickSort(std::vector<int> * unsorted, int begin, int end);
         std::vector<int> * MergeSort(std::vector<int> * unsorted, int begin, int end);
+        std::vector<int> * CountingSort(std::vector<int> unsorted);
 };
 
 #endif
